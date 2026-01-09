@@ -6,4 +6,5 @@
 #### circuit_level.ipynb -> getting Court Level of index_todo collection
 ### collection: RST_Preprocessed_SBS
 #### link_classify.ipynb -> get category of objects under urls_dic in RST_Preprocessed_SBS collection
-
+### collection: buildup_case_urn.ipynb
+#### write in case_urn collection by extracting data from RST_Preprocessed_SBS collection
