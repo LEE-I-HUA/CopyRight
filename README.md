@@ -3,18 +3,18 @@
 
 ---
 
-### 🍡​collection: index_todo
+### 🍡 ​collection: index_todo
 
-##### setting_index.ipynb  
+##### 🌸​ setting_index.ipynb  
 → extract basic case index information  
 (getting No, page, pdf, Court, Date, and Title)
 
 - Remember to check the output in notebook and fix some entries (title) manually if needed.
 
-##### circuit_level.ipynb  
+##### 🌸​ circuit_level.ipynb  
 → derive Court Level / Circuit information for index_todo
 
-##### lexis_metadata_extractor.py  
+##### 🌸​ lexis_metadata_extractor.py  
 → enrich index_todo with Lexis-style opinion front-matter metadata
 
 - Extracts structured metadata from Lexis-formatted PDFs:
@@ -28,7 +28,7 @@
 - Used both for single-case testing and batch backfilling
 - Does not overwrite existing core index fields
 
-##### index_preprocess.py  
+##### 🌸​ index_preprocess.py  
 → post-extraction normalization and cleanup for index_todo
 
 - Removes Lexis footnote markers (e.g. `[*1]`, `[**12]`) from selected textual fields
@@ -39,15 +39,15 @@
 
 ---
 
-### 🍡​collection: RST_Preprocessed_SBS
+### 🍡​ collection: RST_Preprocessed_SBS
 
-##### link_classify.ipynb  
+##### 🌸​ link_classify.ipynb  
 → classify objects under `urls_dic` in RST_Preprocessed_SBS
 
 ---
 
-### 🍡​collection: case_urn
+### 🍡​ collection: case_urn
 
-##### buildup_case_urn.ipynb  
+##### 🌸​ buildup_case_urn.ipynb  
 → build `case_urn` collection by extracting and consolidating citation data  
 from RST_Preprocessed_SBS
