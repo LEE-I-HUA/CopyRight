@@ -90,6 +90,26 @@ def extract_case_metadata_from_page(
     # -------------------------
     # Helper regex functions
     # -------------------------
+    def extract_prior_history_loose(text: str) -> str:
+        """
+        Looser extraction of Prior History section.
+        Designed to minimize missingness in Lexis PDFs with layout breaks.
+        """
+        try:
+            pattern = (
+                r"Prior History[:\s]+"
+                r"([\s\S]+?)"
+                r"(?=\n(?:Disposition:|Core Terms|Subsequent History:|"
+                r"LexisNexis|Headnotes|HN\d+\[|$))"
+            )
+            m = re.search(pattern, text, flags=re.IGNORECASE)
+            if not m:
+                return ""
+            content = m.group(1).replace("\n", " ").strip()
+            return content
+        except Exception:
+            return ""
+
 
     def extract_section(start_label: str, end_labels: List[str], text: str, max_len=1000) -> str:
         try:
@@ -170,10 +190,13 @@ def extract_case_metadata_from_page(
     # Prior / Subsequent history
     # -------------------------
 
-    prior_history = ""
-    m = re.search(r"Prior History:\s*(.+)", local_text, flags=re.IGNORECASE)
-    if m:
-        prior_history = re.sub(r"^\[\*\*\d+\]\s*", "", m.group(1).strip())
+    # prior_history = ""
+    # m = re.search(r"Prior History:\s*(.+)", local_text, flags=re.IGNORECASE)
+    # if m:
+    #     prior_history = re.sub(r"^\[\*\*\d+\]\s*", "", m.group(1).strip())
+    prior_history = extract_prior_history_loose(local_text)
+
+    
 
     subsequent_history = extract_section(
         "Subsequent History:",
@@ -227,7 +250,7 @@ def main():
     COL_NAME = "testing_writein"
 
     PDF_PATH = "./data/cp01.pdf"
-    START_PAGE_1BASED = 22
+    START_PAGE_1BASED = 44
     START_PAGE_0BASED = START_PAGE_1BASED - 1
 
     # ---------- MongoDB ----------
