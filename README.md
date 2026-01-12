@@ -46,7 +46,7 @@
 
 ---
 
-### collection: case_urn
+### 🍡​collection: case_urn
 
 ##### buildup_case_urn.ipynb  
 → build `case_urn` collection by extracting and consolidating citation data  
