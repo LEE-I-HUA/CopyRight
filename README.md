@@ -42,14 +42,12 @@
 
 ### 🍡​ collection: RST_Preprocessed_SBS
 
-##### 🌸​ link_classify.ipynb  
-→ classify objects under `urls_dic` in RST_Preprocessed_SBS
+##### 🌸​ link_classify.ipynb  → classify objects under "urls_dic" in RST_Preprocessed_SBS
 ---
 
 ### 🍡​ collection: case_urn
 
-##### 🌸​ buildup_case_urn.ipynb  
-→ build `case_urn` collection by extracting and consolidating citation data  
+##### 🌸​ buildup_case_urn.ipynb  → build "case_urn" collection by extracting and consolidating citation data  
 from RST_Preprocessed_SBS
 ---
 ### 🍡​ collection: judges_tidy
