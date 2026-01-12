@@ -8,3 +8,11 @@
 ##### link_classify.ipynb -> get category of objects under urls_dic in RST_Preprocessed_SBS collection
 ### collection: buildup_case_urn.ipynb
 ##### write in case_urn collection by extracting data from RST_Preprocessed_SBS collection
+=================
+## Case Metadata Extraction Notebook
+This notebook implements a research-oriented pipeline for extracting case-level metadata
+from Lexis-style U.S. judicial opinion PDFs.
+It focuses on editorial metadata (e.g., Core Terms, Judges, Opinion by, procedural history)
+and writes structured results directly into MongoDB.
+The notebook reflects an evolved prototype combining regex-based and block-level extraction.
+It is intended as a reference implementation rather than a production entry point.
