@@ -3,7 +3,7 @@
 
 ---
 
-### collection: index_todo
+### 🍡​collection: index_todo
 
 ##### setting_index.ipynb  
 → extract basic case index information  
@@ -39,7 +39,7 @@
 
 ---
 
-### collection: RST_Preprocessed_SBS
+### 🍡​collection: RST_Preprocessed_SBS
 
 ##### link_classify.ipynb  
 → classify objects under `urls_dic` in RST_Preprocessed_SBS
