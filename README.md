@@ -9,7 +9,7 @@
 → extract basic case index information  
 (getting No, page, pdf, Court, Date, and Title)
 
-- Remember to check the output in notebook and fix some entries manually if needed.
+- Remember to check the output in notebook and fix some entries (title) manually if needed.
 
 ##### circuit_level.ipynb  
 → derive Court Level / Circuit information for index_todo
@@ -25,8 +25,17 @@
   - Prior history
   - Subsequent history
 - Designed to start from the opinion page (`page`) and scan forward
-- Used both for single-case testing and batch backfilling (e.g., missing counsel)
-- Output is written back to `index_todo` without overwriting existing fields
+- Used both for single-case testing and batch backfilling
+- Does not overwrite existing core index fields
+
+##### index_preprocess.py  
+→ post-extraction normalization and cleanup for index_todo
+
+- Removes Lexis footnote markers (e.g. `[*1]`, `[**12]`) from selected textual fields
+- Normalizes date-related fields (`Argued`, `Decided`, `Others`) into timezone-aware
+  datetime objects (Asia/Taipei, GMT+8)
+- Uses batch updates (`bulk_write`) and only modifies documents when values change
+- Designed to be re-runnable and schema-preserving (idempotent normalization)
 
 ---
 
