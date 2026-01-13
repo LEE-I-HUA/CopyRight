@@ -3,7 +3,7 @@
 
 ---
 
-### 🍡 ​collection: index_todo (uploading... hyperlink)
+### 🍡 ​collection: index_todo 
 
 #### 🐦‍⬛​ demo collection: testing_writein
 
@@ -41,7 +41,7 @@
 
 ---
 
-### 🍡​ collection: RST_Preprocessed_SBS
+### 🍡​ collection: RST_Preprocessed_SBS (uploading... hyperlink)
 
 ##### 🌸​ link_classify.ipynb  → classify objects under "urls_dic" in RST_Preprocessed_SBS
 ---
