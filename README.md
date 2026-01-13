@@ -4,6 +4,7 @@
 ---
 
 ### 🍡 ​collection: index_todo
+
 #### 🐦‍⬛​ demo collection: testing_writein
 
 ##### 🌸​ setting_index.ipynb  
@@ -51,11 +52,10 @@
 ---
 ### 🍡​ collection: judges_tidy
 ---
-### 🍡​ collection: headNote_todo
----
 ### 🍡​ collection: opinion_todo
 ---
 ### 🍡​ collection: footNote_todo
+
 #### 🐦‍⬛​ demo collection: footNote_testing
 
 ##### 🌸​ footnote.py
