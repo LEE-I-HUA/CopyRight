@@ -57,4 +57,7 @@ from RST_Preprocessed_SBS
 ### 🍡​ collection: opinion_todo
 ---
 ### 🍡​ collection: footNote_todo
+#### 🐦‍⬛​ demo collection: footNote_testing
+
+##### 🌸​ footnote.py
 ---
