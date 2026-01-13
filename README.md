@@ -47,8 +47,7 @@
 
 ### 🍡​ collection: case_urn
 
-##### 🌸​ buildup_case_urn.ipynb  → build "case_urn" collection by extracting and consolidating citation data  
-from RST_Preprocessed_SBS
+##### 🌸​ buildup_case_urn.ipynb  → build "case_urn" collection by extracting and consolidating citation data from RST_Preprocessed_SBS
 ---
 ### 🍡​ collection: judges_tidy
 ---
