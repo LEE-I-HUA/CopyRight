@@ -3,7 +3,7 @@
 
 ---
 
-### 🍡 ​collection: index_todo
+### 🍡 ​collection: index_todo (uploading... hyperlink)
 
 #### 🐦‍⬛​ demo collection: testing_writein
 
@@ -50,9 +50,9 @@
 
 ##### 🌸​ buildup_case_urn.ipynb  → build "case_urn" collection by extracting and consolidating citation data from RST_Preprocessed_SBS
 ---
-### 🍡​ collection: judges_tidy
+### 🍡​ collection: judges_tidy (uploading... )
 ---
-### 🍡​ collection: opinion_todo
+### 🍡​ collection: opinion_todo (uploading... )
 ---
 ### 🍡​ collection: footNote_todo
 
