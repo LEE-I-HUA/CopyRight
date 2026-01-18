@@ -40,19 +40,26 @@
 - Designed to be re-runnable and schema-preserving (idempotent normalization)
 
 ---
+### 🍡​ collection: judges_tidy (uploading... )
+---
+### 🍡​ collection: new_format_opinion
+
+#### 🐦‍⬛​ demo collection: opinion_testing
+
+##### 🌸​ opinion.py -> extracts Opinion sections from legal PDF files using font- and layout-based rules (detecting Opinion headers and body text across pages), aggregates associated hyperlinks, and stores each complete Opinion section into MongoDB with page range metadata for research use.
+
+---
 
 ### 🍡​ collection: RST_Preprocessed_SBS (uploading... hyperlink)
 
 ##### 🌸​ link_classify.ipynb  → classify objects under "urls_dic" in RST_Preprocessed_SBS
+
 ---
 
 ### 🍡​ collection: case_urn
 
-##### 🌸​ buildup_case_urn.ipynb  → build "case_urn" collection by extracting and consolidating citation data from RST_Preprocessed_SBS
----
-### 🍡​ collection: judges_tidy (uploading... )
----
-### 🍡​ collection: opinion_todo (uploading... )
+##### 🌸​ buildup_case_urn.ipynb  → build "case_urn" collection by extracting and consolidating citation data from RST_Preprocessed_SBS 
+
 ---
 ### 🍡​ collection: footNote_todo
 
