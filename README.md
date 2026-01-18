@@ -61,9 +61,3 @@
 ##### 🌸​ buildup_case_urn.ipynb  → build "case_urn" collection by extracting and consolidating citation data from RST_Preprocessed_SBS 
 
 ---
-### 🍡​ collection: footNote_todo
-
-#### 🐦‍⬛​ demo collection: footNote_testing
-
-##### 🌸​ footnote.py
----
