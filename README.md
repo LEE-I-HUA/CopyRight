@@ -50,7 +50,7 @@
 
 ---
 
-### 🍡​ collection: RST_Preprocessed_SBS (uploading... hyperlink)
+### 🍡​ collection: RST_Preprocessed_SBS
 
 ##### 🌸​ link_classify.ipynb  → classify objects under "urls_dic" in RST_Preprocessed_SBS
 
