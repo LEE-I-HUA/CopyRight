@@ -40,7 +40,14 @@
 - Designed to be re-runnable and schema-preserving (idempotent normalization)
 
 ---
-### 🍡​ collection: judges_tidy (uploading... )
+### 🍡​ collection: judges_tidy 
+
+##### 🌸judge.ipynb -> simple webcrawler of Ballopedia
+
+- Websites sometimes block web crawlers
+- name are written in different way we need to change the the format to meet the input
+- some names are not in ballopedia need, so we need to add them into the collection manually
+- some names are too short to be found directly. when the situation happens, find all the posible results from websites and save them into collection. We can match the other information of the profiles and the case.
 ---
 ### 🍡​ collection: new_format_opinion
 
